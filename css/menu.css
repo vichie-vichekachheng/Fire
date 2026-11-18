@@ -13,16 +13,20 @@
 
 .menu-hero {
     text-align: center;
-    color: #6b0d15;
+    color: #fff5ed;
     padding: 70px 20px 50px;
-    border-bottom: 1px solid #e5e5e5;
+    border-bottom: 1px solid #5c1717;
+    background:
+        linear-gradient(rgba(20, 5, 5, 0.30), rgba(20, 5, 5, 0.55)),
+        url('https://www.mala-tabetai.com/cms-img/assets/23787e9ca72e4b26ae0b5ff85eead0ec/eb2743cdcaf14ee2a7923975021ed7cb/malatang-towa-eyecatch.png?fm=webp&w=1000&q=78')
+        no-repeat center/cover;
 }
 
 .menu-hero .badge {
     display: inline-block;
-    background: rgba(107, 13, 21, 0.08);
-    color: #6b0d15;
-    border: 1px solid rgba(107, 13, 21, 0.2);
+    background: rgba(150, 25, 35, 0.35);
+    color: #ffe4cf;
+    border: 1px solid rgba(255, 220, 190, 0.5);
     padding: 6px 16px;
     border-radius: 50px;
     font-size: 0.75rem;
@@ -36,18 +40,19 @@
     font-size: 2.6rem;
     font-weight: 800;
     margin-bottom: 12px;
-    color: #5f0109;
+    color: #fff0df;
     letter-spacing: -0.5px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
 }
 
 .menu-hero p {
-    color: #666;
+    color: #f5dcd0;
     max-width: 560px;
     margin: 0 auto;
     font-size: 1.05rem;
     line-height: 1.5;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
 }
-
 .menu-section {
     display: grid;
     grid-template-columns: 300px 1fr 250px;

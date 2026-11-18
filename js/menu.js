@@ -6,31 +6,29 @@ const menu = {
     broth: [
         { name: "Original Mala Broth", price: 3.00, image: "https://i0.wp.com/blog.themalamarket.com/wp-content/uploads/2020/11/hot-pot-in-stainless-pot-v2.jpg?fit=800%2C600&ssl=1" },
         { name: "Tomato Broth", price: 3.00, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaeXRCFMZb8of9Ze-srOGKJtzaY5NS7AsDMcMkGo1eRg&s=10" },
-        { name: "Mushroom Broth", price: 3.50, image: "" },
-        { name: "Sichuan Spicy Broth", price: 3.50, image: "" },
-        { name: "Chicken Bone Broth", price: 3.00, image: "" },
-        { name: "Herbal Chicken Broth", price: 3.50, image: "" },
-        { name: "Mild Vegetable Broth", price: 3.00, image: "" }
+        { name: "Mushroom Broth", price: 3.50, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiwz9IL7lZ0VB0WQAcQ2UoD-ZmtqCc_BAzmgaTdqQVhg&s=10" },
+        { name: "Sichuan Spicy Broth", price: 3.50, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuDyLY8ZtjPENtkKIQosxLxj-Uyzb65UaxSlhnSg4rmQ&s=10" },
     ],
 
     signature: [
         { name: "Classic Mala Bowl", price: 8.50, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuxsXr4qvtHDgY8i8krmdvMZ_xwlVn9lv5ZabZ3yxDAA&s=10" },
         { name: "Beef Mala Bowl", price: 9.50, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVlsFr_sTJpLVL2YcJufclnBQCuOnix0GCrkjtI7qC4g&s=10" },
-        { name: "Seafood Mala Bowl", price: 10.00, image: "" },
-        { name: "Tomato Mala Bowl", price: 8.50, image: "" },
-        { name: "Vegetarian Mala Bowl", price: 7.50, image: "" },
-        { name: "Extra Spicy Mala Bowl", price: 9.00, image: "" },
-        { name: "Premium Mixed Mala Bowl", price: 12.00, image: "" }
+        { name: "Seafood Mala Bowl", price: 10.00, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVCL390Q-O-QVEWKzUZYc6QFzTryIbljs_1IAKTucdpw&s=10" },
+        { name: "Tomato Mala Bowl", price: 8.50, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvWttg2aLM1KmRgzUmiQ0RBGYKo7NisBulZIrpdB2rQ&s=10" },
+        { name: "Vegetarian Mala Bowl", price: 7.50, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwvxx5wfOdR3Ekf53a8jP5yFX7FD7j9YXnL4aBAbihg&s=10" },
+        { name: "Extra Spicy Mala Bowl", price: 9.00, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUs-nS8zP8Szl8cliqZhG6OVJnTpm7YVBCkNOSofofGw&s=10" },
+        { name: "Premium Mixed Mala Bowl", price: 12.00, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQM6zbQa0yDbbaaXclzsqr_Ofe4wkaYyL6JLR0xp-a2w&s=10" }
     ],
 
     meats: [
         { name: "Beef Slices", price: 2.50, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-lckdzNG4SkjgMTiiSP5BBolpYR3eit5Pmf3BjQfi4g&s=10" },
         { name: "Fresh Shrimp", price: 3.00, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV1Ra-9SNxs2Rv9F_64fmaBCI7dTFcNXq4FeGEft-bhg&s=10" },
         { name: "Fish Balls", price: 2.00, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_ZXdW3OVx-Uv734wIFuQHERs8Erj7cLfFxK4h_Nub4A&s=10" },
-        { name: "Pork Slices", price: 2.50, image: "" },
-        { name: "Chicken Breast", price: 2.50, image: "" },
-        { name: "Squid Rings", price: 3.00, image: "" },
-        { name: "Crab Sticks", price: 2.00, image: "" }
+        { name: "Pork Slices", price: 2.50, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc71zwqpsnqQMyhlOi-Zh7E2N5z4h-UWDMBiekWVoQ0g&s=10" },
+        { name: "Chicken Breast", price: 2.50, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD2DRIQc5hw3uKx6UNGcb9gH4XiaB1uw0vA5WIamIG-g&s=10" },
+        { name: "Squid Rings", price: 3.00, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqKXeR87cGuSFEzMy4V_Mbqjw9XY8ZIQs0YBu4qUMjCg&s=10" },
+        { name: "Crab Sticks", price: 2.00, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1R7gsPDuCHnn4H3IrNQ3Zqbi20PDQy_Nbeml31GHedw&s=10" },
+        
     ],
 
     veggies: [
