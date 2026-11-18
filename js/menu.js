@@ -70,12 +70,16 @@ function displayItems(items) {
             <div class="menuContent">
                 <h3>${item.name}</h3>
                 <p>$${item.price.toFixed(2)}</p>
-                <button class="add-cart-btn" >Add to Cart</button>
+                <button class="add-cart-btn" id="add-btn">Add to Cart</button>
             </div>
         </div>
     `).join('');
 }
-
+displayMenu.addEventListener('click', (event) => {
+    if (event.target.classList.contains('add-cart-btn')) {
+        alert(' added to Cart Successfully!');
+    }
+});
 displayItems(menu.all);
 
 filterTabs.addEventListener('click', (e) => {
@@ -91,3 +95,4 @@ filterTabs.addEventListener('click', (e) => {
         displayItems(menu[category]);
     }
 });
+
