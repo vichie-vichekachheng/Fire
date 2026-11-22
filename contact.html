@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | FireBowl Malatang</title>
+  <link rel="icon" href="./images/logo.png">
+  <!-- Main stylesheet for navbar and footer -->
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- Custom stylesheet for Contact page -->
+  <link rel="stylesheet" href="./css/contact.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+  <!-- Header and Navigation Bar -->
+  <header>
+    <nav class="navbar">
+      <div class="nav-items">
+
+        <a href="index.html" class="nav-icon">
+          <img class="nav-logo" src="./images/logo.png" alt="FireBowl Logo">
+          <h3>FIREBOWL MALATANG</h3>
+        </a>
+
+        <div class="nav-menu">
+          <ul>
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">HOME</a>
+              <a href="about.html" class="nav-link">about</a>
+              <a href="menu.html" class="nav-link">menu</a>
+              <a href="event.html" class="nav-link">events</a>
+              <a href="contact.html" class="nav-link active">contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="icons">
+          <a href="login.html" class="login-icon">
+            <i class="fa-solid fa-user-plus"></i>
+          </a>
+          <a class="cart-icon" href="cart.html">
+            <div>
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <div>
+              <span>0</span>
+            </div>
+          </a>
+        </div>
+
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main class="contact-page">
+
+    <!-- Page Title Banner -->
+    <section class="page-banner">
+      <span>GET IN TOUCH</span>
+      <h1>Contact Us</h1>
+      <p>Have a question, feedback, or want to reserve a table for an event? Send us a message below!</p>
+    </section>
+
+    <!-- Contact Information + Contact Form -->
+    <section class="contact-wrapper">
+      <div class="contact-grid">
+
+        <!-- Left Column: Restaurant Info -->
+        <div class="info-box">
+          <h2>Visit FireBowl</h2>
+          <p class="info-subtitle">We are open every day and happy to serve you fresh, hot Malatang.</p>
+
+          <div class="info-row">
+            <i class="fa-solid fa-location-dot"></i>
+            <div>
+              <h3>Location</h3>
+              <p>Street 271, Phnom Penh, Cambodia</p>
+            </div>
+          </div>
+
+          <div class="info-row">
+            <i class="fa-solid fa-phone"></i>
+            <div>
+              <h3>Phone Number</h3>
+              <p>+855 12 345 678</p>
+            </div>
+          </div>
+
+          <div class="info-row">
+            <i class="fa-solid fa-envelope"></i>
+            <div>
+              <h3>Email Address</h3>
+              <p>firebowl@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="info-row">
+            <i class="fa-solid fa-clock"></i>
+            <div>
+              <h3>Opening Hours</h3>
+              <p>Monday - Sunday: 10:00 AM - 10:00 PM</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Contact Form with Fieldset -->
+        <div class="form-box">
+          <h2>Send Us a Message</h2>
+
+          <form id="contactForm" onsubmit="submitMessage(event)">
+            <fieldset class="form-fieldset">
+              <legend>Customer Details</legend>
+
+              <div class="input-group">
+                <label for="fullname">Full Name *</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Enter your name" required>
+              </div>
+
+              <div class="input-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+              </div>
+
+              <div class="input-group">
+                <label for="topic">Reason for Contact</label>
+                <select id="topic" name="topic">
+                  <option value="general">General Question</option>
+                  <option value="event">Event / Table Reservation</option>
+                  <option value="feedback">Food & Service Feedback</option>
+                </select>
+              </div>
+
+              <div class="input-group">
+                <label for="message">Message *</label>
+                <textarea id="message" name="message" rows="4" placeholder="Write your message here..."
+                  required></textarea>
+              </div>
+
+              <button type="submit" class="submit-btn">Send Message</button>
+            </fieldset>
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Simple Embedded Google Map -->
+    <section class="map-section">
+      <h2 class="section-title">Find Us on the Map</h2>
+      <div class="map-frame">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62542.63452536841!2d104.8830836!3d11.5563738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109513dc76a6be3%3A0x9c010ee85ab525bb!2sPhnom%20Penh!5e0!3m2!1sen!2skh!4v1700000000000"
+          width="100%" height="320" style="border:0;" allowfullscreen="" loading="lazy"
+          title="FireBowl Malatang Location">
+        </iframe>
+      </div>
+    </section>
+
+    <!-- FAQ Section Right Above Footer (Using Simple HTML5 <details> Tag) -->
+    <section class="faq-section">
+      <h2 class="section-title">Frequently Asked Questions</h2>
+
+      <div class="faq-list">
+        <details class="faq-item" open>
+          <summary>1. How do I choose my spice level?</summary>
+          <p>We offer 4 spice levels: Non-Spicy Bone Broth, Mild, Medium, and Extra Spicy. You can choose your broth
+            level when ordering.</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>2. Do you offer vegetarian options?</summary>
+          <p>Yes! We have a fresh vegetable and mushroom broth along with over 30 types of greens, tofu, and noodles.
+          </p>
+        </details>
+
+        <details class="faq-item">
+          <summary>3. Do I need to book in advance for events?</summary>
+          <p>Walk-ins are welcome, but for groups of 5 or more or for the Spicy Reaper Challenge, we recommend sending
+            us a message above.</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>4. Is parking available at the restaurant?</summary>
+          <p>Yes, free motorbike and car parking is available right in front of FireBowl Malatang.</p>
+        </details>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <img src="./images/logo.png" alt="FireBowl Logo">
+          <h3>FIREBOWL MALATANG</h3>
+        </div>
+        <p>Feel the heat. Taste the flavor. Enjoy authentic and delicious Malatang made with fresh ingredients
+          and bold spices.</p>
+      </div>
+
+      <div class="footer-links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="menu.html">Our Menu</a></li>
+          <li><a href="event.html">Events</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h3>Contact Us</h3>
+        <p><i class="fa-solid fa-location-dot"></i> Phnom Penh, Cambodia</p>
+        <p><i class="fa-solid fa-phone"></i> +855 12 345 678</p>
+        <p><i class="fa-solid fa-envelope"></i> firebowl@gmail.com</p>
+      </div>
+
+      <div class="footer-social">
+        <h3>Follow Us</h3>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 FireBowl Malatang. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Simple Beginner JavaScript for Form Submission -->
+  <script>
+    function submitMessage(event) {
+      event.preventDefault();
+      var name = document.getElementById("fullname").value;
+      alert("Thank you, " + name + "! Your message has been sent to FireBowl Malatang! Our staff will reach out to you shortly!");
+      document.getElementById("contactForm").reset();
+    }
+  </script>
+</body>
+
+</html>
