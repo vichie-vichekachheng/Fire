@@ -1,0 +1,66 @@
+.events-banner {
+  height: 430px;
+}
+
+.promo-section {
+  padding: 80px 8%;
+  background: #f8f8f8;
+}
+
+.promo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.promo-box {
+  background: white;
+  padding: 30px 25px;
+  border-radius: 10px;
+  text-align: center;
+  border-top: 4px solid #a4161a;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+}
+
+.promo-box i {
+  font-size: 32px;
+  color: #a4161a;
+  margin-bottom: 15px;
+}
+
+.promo-box h3 {
+  font-size: 24px;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.promo-box p {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+
+.join-banner {
+  background: #580101;
+  color: white;
+  text-align: center;
+  padding: 60px 8%;
+}
+
+.join-banner h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.join-banner p {
+  color: #e5dede;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 900px) {
+  .promo-grid {
+    grid-template-columns: 1fr;
+  }
+}
