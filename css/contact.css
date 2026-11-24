@@ -1,11 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-
 .contact-page {
   background-color: #f9f7f6;
   padding-bottom: 70px;
 }
 
-/* Readable font for paragraphs, forms, and FAQ */
+/* Readable fonts for paragraphs, forms, and FAQ */
 .contact-page p,
 .contact-page label,
 .contact-page input,
